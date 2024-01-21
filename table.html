@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table</title>
+    <style>
+      h1 {
+        text-align: center;
+        margin-bottom: 2rem;
+      }
+      table {
+        width: 100%;
+      }
+      table,
+      td {
+        border: 1px solid black;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Ian's Timetable</h1>
+    <table>
+      <tr>
+        <td></td>
+        <td></td>
+        <td colspan="3">Morning</td>
+
+        <td>Lunch</td>
+        <td colspan="4">Afternoon</td>
+
+        <td colspan="3">Evening</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td>9-10 AM</td>
+        <td>10 -11 AM</td>
+        <td>11 - 12 AM</td>
+        <td>1-2 PM</td>
+        <td>2.3 PM</td>
+        <td>3-4 PM</td>
+        <td>4-5 PM</td>
+        <td>5-6 PM</td>
+        <td>6-7 PM</td>
+        <td>7-8 PM</td>
+        <td>8-9 PM</td>
+      </tr>
+      <tr>
+        <td rowspan="2">Work</td>
+        <td>Monday</td>
+        <td colspan="3">Development Meeting</td>
+        <td></td>
+        <td colspan="3">Client Meeting</td>
+        <td>commute</td>
+        <td colspan="3">Free</td>
+      </tr>
+      <tr>
+        <td>Tuesday</td>
+        <td colspan="3">in Office</td>
+        <td></td>
+        <td colspan="7">In Office</td>
+      </tr>
+      <tr>
+        <td rowspan="2">Lecture</td>
+        <td colspan="3">Wednesday</td>
+        <td>CS205</td>
+        <td></td>
+        <td colspan="7">Presentation</td>
+      </tr>
+      <tr>
+        <td colspan="3">Thursdat</td>
+        <td>MAM304</td>
+        <td></td>
+        <td colspan="3">Tutorial for MAM200</td>
+        <td colspan="4">Free</td>
+      </tr>
+      <tr>
+        <td>Research</td>
+        <td>MAM304</td>
+        <td colspan="3">Research</td>
+        <td></td>
+        <td colspan="7">Research</td>
+      </tr>
+    </table>
+  </body>
+</html>
